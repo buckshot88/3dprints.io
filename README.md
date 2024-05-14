@@ -94,8 +94,7 @@
         </section>
         <section id="contact">
             <h2>Contact Us</h2>
-            <p>Email: contact@example.com</p>
-            <p>Phone: 123-456-7890</p>
+            <p>Email: destinycontractingllc@example.com</p>
         </section>
     </div>
     <footer>
