@@ -94,7 +94,7 @@
         </section>
         <section id="contact">
             <h2>Contact Us</h2>
-            <p>Email: destinycontractingllc@example.com</p>
+            <p>Email: destinycontractingllc@gmail.com</p>
         </section>
     </div>
     <footer>
