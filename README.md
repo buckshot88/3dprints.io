@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="container">
-            <img src="amazon_logo.png" alt="Amazon Logo">
+            <img src="3dprintshop_logo.png" alt="3DPrintShop Logo">
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
