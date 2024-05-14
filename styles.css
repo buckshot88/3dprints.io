@@ -1,3 +1,4 @@
+/* Reset default margin and padding */
 * {
     margin: 0;
     padding: 0;
@@ -6,10 +7,11 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -17,6 +19,10 @@ header {
     background-color: #333;
     color: white;
     padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
 }
 
 header nav ul {
@@ -31,6 +37,7 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: white;
+    font-size: 18px;
 }
 
 main {
@@ -39,18 +46,36 @@ main {
 
 .products {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
 }
 
 .product {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px);
 }
 
 .product img {
     width: 100%;
-    max-width: 250px;
+    max-width: 200px;
     height: auto;
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.product p {
+    color: #555;
 }
 
 .add-to-cart {
@@ -58,6 +83,7 @@ main {
     color: white;
     padding: 10px 20px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -70,5 +96,5 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
